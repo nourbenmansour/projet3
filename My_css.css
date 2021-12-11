@@ -1,0 +1,503 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+
+nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+    align-content: center;
+    font-weight: 400;
+    font-family: Roboto,Arial,sans-serif;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 3;
+    background: hsla(0,0%,100%,.98);
+    transition: box-shadow .25s ease 0s;
+    
+
+}
+ nav img{
+    margin-left: 200px;
+    margin-top: 20px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    
+    
+
+}
+ .m{
+    display: flex;
+    margin-left: 35%;
+    margin-right: 10px;
+    margin-top: 9px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: flex-start;
+    
+}
+  
+ .m li{
+    list-style: none;
+    margin-left:10px;
+    margin-right:10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+ .m li a{
+    color:#a7a7a7;
+    text-decoration: none;
+    transition: 0.1s;
+}
+
+ 
+ .m li  a:hover {
+    color: #00b39b;
+}
+.m .n{
+    color:#00b39b;
+}
+
+.imglogo {
+    display: block;
+    margin: 0 auto;
+margin-top: 110px;}
+ h1 {
+    font-size: 34px ;
+    font-family: "Work Sans",Arial,sans-serif;
+    color: #00b39b;
+    font-weight: 300;
+    letter-spacing: -.3px;
+    text-align: center;
+}
+div .pg {
+    display:flex;
+    margin-top:3%;
+    margin-left: 19%;
+    margin-right: 19%;
+    color: #747474;
+    align-items:baseline;
+    
+}
+ .pg p{
+    padding:10px;
+    
+ }
+
+
+/**/
+.header{
+    text-align: center;
+    max-width: 460px;
+    font-size: 14px;
+    font-family:  sans-serif;
+    margin-bottom: 0px;
+    margin-top:100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.header h1{
+    font-size: 29px;
+    color: #00b39b;
+   
+}
+.office1 {
+    height:278px;
+    width: 309px;
+    border-radius: 5px;
+    background-image:url("https://www.docplanner.com/images/warsaw.png");
+    background-repeat: no-repeat;
+    
+}
+.office2 {
+    height:278px;
+    width: 309px;
+    border-radius: 5px;
+    background-image:url("https://www.docplanner.com/images/barcelona.png");
+    background-repeat: no-repeat;
+    
+}
+.office3 {
+    height:278px;
+    width: 309px;
+    border-radius: 5px;
+    background-image:url("https://www.docplanner.com/images/istanbul.png");
+    background-repeat: no-repeat;
+    
+}
+.office4 {
+    height:278px;
+    width: 309px;
+    border-radius: 5px;
+    background-image:url("https://www.docplanner.com/images/rome.png");
+    background-repeat: no-repeat;
+    
+}
+.office5 {
+    height:278px;
+    width: 309px;
+    border-radius: 5px;
+    background-image:url("https://www.docplanner.com/images/bologna.png");
+    background-repeat: no-repeat;
+    
+}
+.office6 {
+    height:278px;
+    width: 309px;
+    border-radius: 5px;
+    background-image:url("https://www.docplanner.com/images/curitiba.png");
+    background-repeat: no-repeat;
+    
+}
+.office7 {
+    height:278px;
+    width: 309px;
+    border-radius: 5px;
+    background-image:url("https://www.docplanner.com/images/mexico-city.png");
+    background-repeat: no-repeat;
+    
+}
+.photo{
+ display: grid;
+ grid-template-rows: 1fr 1fr 1fr ;
+ grid-template-columns: 1fr 1fr 1fr;
+ justify-items: center;
+ margin-top: 100px;
+
+
+
+}
+.office{
+    background: #fff;
+    border: 1px solid rgba(0,0,0,.03);
+    border-radius: 6px;
+    max-width: 311px;
+    position: relative;
+    display: block;
+    
+    
+}
+.office .office__desc{
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr;
+    font-family: Roboto,Arial,sans-serif;
+    color: #747474;
+    justify-items: center;
+    align-items: center;
+   margin: 10px 10px 10px 10px;
+    
+}
+.final{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    
+}
+.final h1{
+    font-size: 29px;
+    color: #333;
+    
+}
+.final .btn-primary{
+margin-bottom: auto;
+margin-top: auto;
+margin-left: 43%;
+margin-right: 43%;
+margin-top: 20px;}
+.main-footer {
+    border-top: 1px solid #eef2f2;
+    text-align: center;
+    padding: 1em 0;}
+.main-footer p {
+    font-size: 12px;
+    color: #ababab;
+}
+.section__inner{
+    display: block;
+    margin-top: 20px;
+}
+.elements{
+    display:flex;
+    margin-top:3%;
+    margin-left: 20%;
+    margin-right: 20%;
+    justify-content: space-between;
+    
+ }
+ .elmt1 ,.elmt2,.elmt3{
+     padding:30px;
+     border-radius: 15px;
+     margin-left: 20px;
+     margin-bottom: 40px;
+ }
+ .elmt1{
+     background-color: #00b39b;    
+ }
+ #e1{
+    background-color: #00b39b;
+    color: white;
+    margin-top: 70px;
+    border: 0;
+ }
+ .elmt2{
+    background-color: #496fd8;
+    
+    
+}
+#e2{
+   background-color: #496fd8;
+   color: white;
+    margin-top: 70px;
+    border: 0;
+}
+.elmt3{
+    background-color: #2b2e35;
+    
+    
+}
+#e3{
+   margin-top:50px;
+   background-color: #2b2e35;
+   color: white;
+   border: 0;
+}
+#e4{
+    margin-top:5px;
+    background-color: #2b2e35;
+    color:white;
+    border:0;
+ }
+ .services{
+    display:flex;
+    margin-top:3%;
+    margin-left: 20%;
+    margin-right: 20%;
+    
+    
+ }
+ .services h1{
+   
+    color: #00b39b;
+    
+    font-size: 1.400rem;
+    width: 200px;
+    font-weight: 300;
+    letter-spacing: -.3px;
+}
+.s{
+    display: flex;
+    flex-wrap: wrap;
+    
+    font-size: 0;
+    width: 75%;
+    list-style: none;
+    justify-content: center;
+    align-items: flex-start;
+}
+.s li {
+    font-size: 1rem;
+    display: inline-block;
+    width: 160px;
+    padding: 5px 0;
+    
+}
+.s a {
+    display: inline-block;
+    padding: 5px 0;
+   
+    
+}
+.s li img{
+    
+    filter: invert(50%); 
+  -webkit-filter:invert(50%); 
+    
+}
+.s li  a:hover {
+    color: #00b39b;
+}
+.elements p , h2 {
+    color:white;
+}
+.infos {
+    background: #e5faf8;
+    background-image: linear-gradient(
+    -45deg,rgba(0,204,177,.01) 5%,rgba(61,199,223,.1));
+    padding: 1.875em 0 0.625em;
+    overflow: hidden;
+    margin: 3.125rem auto 5.5rem;
+    height: 1268px;
+    height: 600px;
+
+}
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr ;
+   
+    
+}
+
+.evolution{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: 1fr 1fr;
+    margin-left: 10%;
+    
+    
+}
+.header .im{
+    
+    background: url(https://www.docplanner.com/img/logo.png) no-repeat;
+    width: 456px;
+    height: 435px;
+    margin-top: 20px;
+    
+    
+    
+
+
+}
+.header h1{
+    color:#00b39b ;
+   
+    font-weight: 300;
+    letter-spacing: -.3px;
+    
+}
+.header p{
+    margin-top: 30px;
+    color: #747474;
+    max-width: 415px;
+    font-weight: 300;
+    letter-spacing: -.3px;
+}
+
+.leader {
+    background-color: white;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-left: 30px;
+    width: 200px;
+    height: 250px;
+    
+   
+    
+}
+.leader  img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10px;
+        width: 40px;
+        height: 40px;
+    }
+.leader h1{
+    text-align: center;
+    color:#00b39b;
+    margin-top: 10px;
+    font-size:24px;
+}
+.leader p{
+    text-align: center;
+    margin-top: 10px;
+    color: #747474;
+    font-size:13px;
+}
+.rendez-vous{
+    background-color: white;
+    border-radius: 5px;
+    width: 200px;
+    height: 250px;
+    margin-left: 30px;
+    
+    
+}
+.rendez-vous img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    width: 40px;
+        height: 40px;
+}
+.rendez-vous h1{
+    text-align: center;
+    color:#00b39b;
+    margin-top: 10px;
+    font-size:24px;
+}
+.rendez-vous p{
+    text-align: center;
+    margin-top: 10px;
+    color: #747474;
+    font-size:13px;
+}
+.patients {
+    background-color: white;
+    border-radius: 5px;
+    width: 200px;
+    height: 250px;
+    margin-top: 20px;
+    margin-left: 30px;
+   
+    
+}
+.patients  img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 60px;
+        width: 40px;
+        height: 40px;
+    }
+.patients h1{
+    text-align: center;
+    color:#00b39b;
+    margin-top: 10px;
+    font-size:24px;
+}
+.patients p{
+    text-align: center;
+    margin-top: 10px;
+    font-size:13px;
+    color: #747474;
+   
+}
+.médecins{
+    background-color: white;
+    border-radius: 5px;
+    width: 200px;
+    height: 250px;
+    margin-left: 30px;
+    
+    
+}
+.médecins img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    width: 40px;
+        height: 40px;
+}
+.médecins h1{
+    text-align: center;
+    color:#00b39b;
+    margin-top: 10px;
+    font-size:24px;
+}
+.médecins p{
+    text-align: center;
+    margin-top: 10px;
+    color: #747474;
+    font-size:13px;
+}
